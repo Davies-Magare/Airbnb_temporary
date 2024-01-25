@@ -1,0 +1,80 @@
+.places {
+	font-size: 30px;
+	padding: 0;
+}
+.places h1 {
+	margin-bottom: 0;
+}
+.places article {
+	border: 1px solid #FF5A5F;
+	border-radius: 4px;
+	width: 390px;
+	padding: 20px;
+	margin: 20px;
+	float: left;
+	position: relative;
+	display: flex;  /*new*/
+	flex-direction: column; /*new*/
+}
+.places article h2{
+	font-size: 30px;
+	text-align: center;
+	margin: auto;
+}
+.price_by_night {
+	position: relative; /*new .. prev was absolute */
+	/*delete top 10px*/
+    /*delete right 10px*/
+	border: 4px solid red;
+	border-radius: 40px;
+	min-width: 60px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	font-size: 30px;
+	margin-right: 0; /*new .. prev was 0 auto // editing it again from 10px auto and using margin-right instd of margin*/
+	justify-content: center;
+	align-self: flex-end;
+}
+.information {
+	height: 80px;
+	border: 5px solid cyan;
+	border-top: 1px solid #DDDDDD;
+	flex-grow: 1; /*new*/
+	margin-top: 10px; /*new*/
+	display: flex;
+}
+.max_guest {
+	width: 100px;
+	height: 100px;
+	background-image: url("../images/guests.png");
+	background-repeat: no-repeat;
+	position: relative;
+	vertical-align: bottom;
+	text-align: center;
+	border: 5px solid blue;
+}
+.max_guest p {
+	font-size: 20px;
+	margin-bottom: 0px;
+	border: 5px solid orange;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
